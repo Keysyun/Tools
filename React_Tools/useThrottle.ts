@@ -1,3 +1,5 @@
+// 节流函数
+
 import { useCallback, useRef } from "react";
 
 export default function useThrottle(fn, delay) {
